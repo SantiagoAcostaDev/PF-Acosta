@@ -1,0 +1,31 @@
+.card {
+    display: flex;
+    align-items: center;
+}
+
+
+.row {
+    justify-content: center;
+}
+
+.contenedor {
+    @include flex-center();
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    
+}
+
+.categoria {
+    margin: 2px;
+    width: 500px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+
+#cards {
+    margin: 15px;
+}
